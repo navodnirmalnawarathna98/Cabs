@@ -1451,8 +1451,8 @@ a:hover {
 /* Styles for WhatsApp button */
 .whatsapp-button {
   position: fixed;
-  bottom: 20px; /* Adjust the bottom position */
-  right: 20px; /* Adjust the right position */
+  bottom: 45px; /* Adjust the bottom position */
+  right: 25px; /* Adjust the right position */
   z-index: 9999;
 }
 
