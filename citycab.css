@@ -1,7 +1,7 @@
 /*---------------------------------*/
 /*           Grid Blocks           */
 /*---------------------------------*/
-.page-wrapper {
+.page-wrapper-1 {
   position: relative !important;
   z-index: 1000 !important;
   background: #fff !important;
@@ -592,64 +592,64 @@ a:hover {
   margin-top: 10px;
 }
 .os-btn-white {
-  border-color: #fff;
-  color: #fff;
+  border-color: #fff !important;
+  color: #fff !important;
 }
 .os-btn-black {
-  border-color: #000;
-  color: #000;
+  border-color: #000 !important;
+  color: #000 !important;
 }
 /* Styling Carousel's Next and Prev buttons */
 .owl-theme .owl-controls {
-  margin-top: 0;
+  margin-top: 0 !important;
 }
 .owl-theme .owl-controls .owl-page span {
-  background: #f7b926;
+  background: #f7b926 !important;
 }
 .owl-theme .owl-controls .owl-buttons div {
-  background: #fff;
-  color: #aaa;
-  padding: 20px 15px;
+  background: #fff !important;
+  color: #aaa !important;
+  padding: 20px 15px !important;
 }
 .owl-prev {
-  float: left;
-  position: absolute;
-  top: 45%;
-  left: 5px;
+  float: left !important;
+  position: absolute !important;
+  top: 45% !important;
+  left: 5px !important;
 }
 .owl-next {
-  float: right;
-  position: absolute;
-  top: 45%;
-  right: 5px;
+  float: right !important;
+  position: absolute !important;
+  top: 45% !important;
+  right: 5px !important;
 }
 .owl-pagination {
-  display: none;
+  display: none !important;
 }
 
 /*--------------------*/
 /* Styling Choose Car */
 /*--------------------*/
 .choose-car {
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding-top: 35px !important;
+  padding-bottom: 35px !important;
 }
 .header-car {
-  padding: 0px 0px 25px;
-  text-align: center;
-  font-weight: 300;
+  padding: 0px 0px 25px !important;
+  text-align: center !important;
+  font-weight: 300 !important;
 }
 .header-car::after {
-  margin: -1px auto;
-  background-image: url("images/taxi.png");
-  background-repeat: no-repeat;
-  content: "";
-  display: block;
-  height: 6px;
-  position: relative;
-  width: 90px;
-  top: 12px;
-  margin-bottom: 8px;
+  margin: -1px auto !important;
+  background-image: url("images/taxi.png") !important;
+  background-repeat: no-repeat !important;
+  content: "" !important;
+  display: block !important;
+  height: 6px !important;
+  position: relative !important;
+  width: 90px !important;
+  top: 12px !important;
+  margin-bottom: 8px !important;
 }
 /* Set the background color of nav-tabs here */
 .cc-nav-tabs-1 {
@@ -722,59 +722,7 @@ a:hover {
   line-height: normal !important;
 }
 
-/*------------------------------*/
-/* Styling Book Taxi            */
-/*------------------------------*/
-.book-taxi {
-  background-image: url("images/citydrop.jpg");
-  background-repeat: repeat-y;
-  background-position: center top;
-  color: #fff;
-  margin: 0px;
-  padding-top: 35px;
-  padding-bottom: 35px;
-}
-.book-now {
-  padding: 0px 0px 25px;
-  text-align: center;
-  font-weight: 300;
-  color: #fff;
-}
-.book-now::after {
-  margin: -1px auto;
-  background-image: url("images/taxi2.png");
-  background-repeat: no-repeat;
-  content: "";
-  display: block;
-  height: 6px;
-  position: relative;
-  width: 90px;
-  top: 12px;
-  margin-bottom: 8px;
-}
-.radio {
-  color: #f7b926;
-}
-.book-taxi .form-horizontal .form-group {
-  margin-right: 0px;
-  margin-left: 0px;
-}
-.label-left {
-  padding-right: 0px;
-  text-align: left !important;
-  color: #f7b926;
-}
-.book-taxi .form-control {
-  color: #fff;
-  background: #1a1a1a;
-  border: 1px solid #111;
-}
-.book-taxi .form-control:focus,
-.form-control.active {
-  -webkit-box-shadow: 0 0 2px #f7b926;
-  -moz-box-shadow: 0 0 2px #f7b926;
-  box-shadow: 0 0 2px #f7b926;
-}
+
 /* Datepicker */
 .ui-widget-header {
   background-color: #f7b926;
@@ -806,29 +754,7 @@ a:hover {
   background-color: #fbf9ee;
 }
 
-/*------------------------------*/
-/* Styling Download App         */
-/*------------------------------*/
-.download-app {
-  padding-top: 35px;
-  padding-bottom: 35px;
-}
-.da-span {
-  background: #f7b926;
-  color: #fff;
-}
-.p-mar-5 {
-  margin-top: -5px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.p-mar-15 {
-  margin-top: -15px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.da-a {
-  color: #fff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+
 
 /*------------------------------*/
 /* Styling Testimonials         */
@@ -1067,6 +993,18 @@ a:hover {
 }
 
 /*--------------------------------------------*/
+/* Styling Who Are We                         */
+/*--------------------------------------------*/
+.professional-company {padding-top: 35px; padding-bottom: 35px;}
+.professional-company p {font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; }
+.professional-company .uk-badge { border-radius: 50px; padding: 2px 8px;  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; }
+.professional-company .uk-panel p {color: #000; margin: 0px; }
+.professional-company  p.uk-panel-p-5{ color: #a2a2a2; margin-top: -10px;}
+.professional-company .uk-progress { border: 2px solid #000; padding: 3px; border-radius: 50px;}
+.professional-company .uk-progress-bar { background: none repeat scroll 0 0 #f7b926; border-radius: 50px;}
+
+
+/*--------------------------------------------*/
 /* Styling City Coverage                      */
 /*--------------------------------------------*/
 .vertical-city-coverage {
@@ -1099,6 +1037,22 @@ a:hover {
 .vertical-city-coverage h4 {
   color: #fff;
 }
+
+/*--------------------------------------------*/
+/* Styling Our Vehicles                       */
+/*--------------------------------------------*/
+
+.vertical-our-vehicles {background: url(images/city-parallax2.jpg); background-position: 50% -236.6px; padding-top: 35px; padding-bottom: 35px; border-color: #fff;}
+.vertical-our-vehicles .header-vehicles { padding: 0px 0px 25px; text-align: center; font-weight: 300;}
+.vertical-our-vehicles .header-vehicles::after { margin: -1px auto; background-image: url("images/taxi.png"); background-repeat: no-repeat; content: ""; display: block; height: 6px; position: relative; width: 90px; top: 12px; margin-bottom: 8px;}
+.panel-heading { padding: 0px; -webkit-border-radius: 50px; -moz-border-radius: 50px; border-radius: 50px;}
+.panel {border-color: #fff;}
+.panel-body  p {color: #000; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
+.panel-default > .panel-heading { background-color: #fff; color: #000; padding: 0px; -webkit-border-radius: 50px; -moz-border-radius: 50px; border-radius: 50px;}
+.btn.accord { font-size: 1.1em; line-height: 1.1em; color: #000; text-align: left; -webkit-border-radius: 50px; -moz-border-radius: 50px; border-radius: 50px; border: 2px solid #000; -webkit-transition: all 400ms; -moz-transition: all 400ms; -o-transition: all 400ms; transition: all 400ms; padding: 14px 25px;}
+.btn.accord:hover { color: #fff; border: 2px solid #000; background: #000; text-decoration: none; -webkit-transition: all 200ms; -moz-transition: all 200ms; -o-transition: all 200ms; transition: all 200ms;}
+.btn.accord.active { color: #fff; border: 2px solid #000; background: #000; text-decoration: none; -webkit-transition: all 200ms; -moz-transition: all 200ms; -o-transition: all 200ms; transition: all 200ms;}
+
 
 /*--------------------------------------------*/
 /* Styling Our Drivers                        */
@@ -1491,4 +1445,22 @@ a:hover {
 .offcanvas-menu .offcanvas-inner ul > li a:hover {
   color: #f7b926;
   background: #404040;
+}
+
+
+/* Styles for WhatsApp button */
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px; /* Adjust the bottom position */
+  right: 20px; /* Adjust the right position */
+  z-index: 9999;
+}
+
+/* Optional styles for the WhatsApp icon */
+.whatsapp-button img {
+  width: 75px;
+    height: auto;
+    border-radius: 19%;
+    border: 8px solid #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
