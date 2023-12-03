@@ -385,8 +385,8 @@ a:hover {
 /* Set the navbar text here */
 .navbar-text {
   margin: 0 auto !important;
-  padding: 39px 0px !important;
-  font-size: 31.5px !important;
+  padding: 47px 7px !important;
+  font-size: 23.5px !important;
 }
 .navbar-text-fixed {
   padding: 16px 0px !important;
